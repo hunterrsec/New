@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://hackerrecon.com/sitemap.xml
+
+# Crawl-delay is optional — remove if not needed
+Crawl-delay: 1
+
+# Disallow any potential admin or staging paths just in case
+Disallow: /admin/
+Disallow: /staging/
+Disallow: /dev/
+Disallow: /test/
